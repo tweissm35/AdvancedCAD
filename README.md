@@ -1,6 +1,7 @@
 # Advanced CAD
 Here I detail my trials and tribulations encountered while working on this module.
-
+## Gears
+This one wasn't that bad. I had a problem where I was trying to dimension the wrong thing, which was an easy fix once I realized. I also had some problems making the design table which didn't repeat when I put all the numbers in again.
 ## Gearbox
 This one wasn't so bad. I used a centerline and symmetric relation for the plate in a bunch of other relations. An important note is that the gears should be mated to the pitch circle which is the middle circle. I also had a minor problem where the gears were turning at the right speed, but weren't lined up. All I had to do was suppress the gear mate, move the gear into the right spot, and unsuppress it. It worked like a charm!
 ## Motion Study
